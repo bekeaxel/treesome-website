@@ -1,0 +1,14 @@
+@font-face {
+    font-family: bit;
+    src: url(../fonts/ConnectionIi-2wj8.otf);
+}
+
+.faq {
+    background-color: rgb(214, 197, 176);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

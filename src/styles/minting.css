@@ -1,0 +1,177 @@
+@font-face {
+    font-family: bit;
+    src: url(../fonts/ConnectionIi-2wj8.otf);
+}
+
+.minting {
+  
+    /* background-color: transparent; */
+    
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    color: rgb(0, 0, 0);
+    font-family: bit;
+    font-size: 48px;
+}
+
+.card {
+    background-color: rgba(13, 31, 13, 0.3);
+    border-style: solid;
+    border-color: rgb(59, 59, 59);
+    border-width: 6px;
+    width: 500px;
+    height: 450px;
+    align-items: center;
+    box-shadow: 5px 5px 3px rgba(26, 26, 26, 0.7);
+    margin-top: 50px;
+}
+
+.card-title {
+    color:rgb(0, 0, 0);
+    font-family: bit;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.card-text {
+    color: rgb(0, 0, 0);
+    font-family: bit;
+    font-size: 20px;
+}
+
+a.card-text:hover {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+}
+
+.mint-container {
+    display: block;
+    flex: 2;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(13, 31, 13, 0.4);
+    padding: 24;
+    border-radius: 24;
+    box-shadow: 0px 5px 11px 2px rgba(0,0,0,0.7);
+    height: 600px;
+}
+
+.market-button {
+    padding: 0.7em 1.4em;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.15em;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: bit;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    background-color: darkolivegreen;
+    box-shadow: inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align: center;
+    position: relative;
+}
+
+.market-button:active {
+    top: 0.1em;
+}
+
+.market-button:hover {
+    background-color: rgb(72, 92, 39);
+}
+
+@media all and (max-width: 30em) {
+    .market-button{
+        display: block;
+        margin: 0.4em auto;
+    }
+}
+
+.counter {
+    margin: auto;
+    width: 140px;
+    height: 60px;
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;   
+    display: flex;
+    align-items: center;
+    background-color: rgba(107, 139, 109, 0.37);
+}
+
+.counter-btn {
+    background-color: rgb(170, 170, 170); 
+    font-size: 25px;
+}
+
+.counter-digit {
+   align-self: center;
+   margin: auto;
+}
+
+.mint-button {
+    margin: auto;
+    width: 10em;
+    height: 60px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    background-color: rgba(130, 133, 130, 0.603);
+}
+
+.mint-button:hover {
+    background-color: rgba(112, 114, 112, 0.603);
+}
+.mint-button:active {
+    border-color: rgb(32, 32, 32);
+}
+
+.connect-button {
+    background-color: rgba(99, 70, 35, 0.705);
+    border-style: solid;
+    border-color: black;
+    height: 3em;
+    width: 15em;
+    margin: auto;
+}
+
+.connect-button:hover {
+    background-color: rgba(80, 56, 27, 0.705)
+}
+
+.spacer-x-small {
+    height: 8px;
+    width: 8px;
+}
+
+.spacer-small {
+    height: 16px;
+    width: 16px;
+}
+
+.spacer-medium {
+    height: 24px;
+    width: 24px;    
+}
+
+.spacer-large {
+    height: 32px;
+    width: 32px;   
+}
+
+
+/* color: var(--primary-text);
+font-size: 22px;
+font-weight: 500;
+line-height: 1.6; */

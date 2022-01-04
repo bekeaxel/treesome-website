@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: bit;
+    src: url('../fonts/ConnectionIi-2wj8.otf');
+}
+
+.text-t {
+    font-family: bit;
+    font-size: large;
+}
+
+.header {
+    text-align: center;
+    text-shadow: 2px 2px #525252f6;
+    margin: auto;
+    padding: 20px;
+    font-size: 42px;
+    font-family: bit;
+}

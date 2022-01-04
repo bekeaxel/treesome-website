@@ -1,0 +1,22 @@
+
+
+
+.roadmap {
+    background-color: rgb(214, 197, 176);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.row-name {
+    font-size: 25px;
+    margin: 50px;
+}
+
+.row-text {
+    font-size: 18px;
+    margin: 50px;
+}

@@ -1,0 +1,30 @@
+
+
+.navbar-bg-color {
+    background-color: rgb(92, 57, 20);
+}
+
+.link-container {
+    display: flex;
+    margin: 0 1em 0 1em;
+    align-items: center;
+}
+
+.nav-link {
+    margin: 0 0.3em 0 0;
+}
+
+.link {
+    margin: 0 0.5em 0 0.5em;
+}
+
+.nav-item {
+    color:rgb(255, 233, 209);
+    cursor: pointer;
+
+    
+}
+
+.link-btn {
+    background-color: transparent;
+}
