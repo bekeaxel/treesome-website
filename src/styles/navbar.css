@@ -1,7 +1,7 @@
 
 
 .navbar-bg-color {
-    background-color: rgb(92, 57, 20);
+    background-color: rgb(31, 51, 28);
 }
 
 .link-container {
@@ -21,8 +21,17 @@
 .nav-item {
     color:rgb(255, 233, 209);
     cursor: pointer;
+}
 
-    
+.navbar-brand {
+    display: flex; 
+    flex-direction: row;
+    align-content: flex-start;
+   
+}
+.brand {
+    color: rgb(255, 233, 209);
+    margin: auto;
 }
 
 .link-btn {

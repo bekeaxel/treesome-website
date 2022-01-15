@@ -3,6 +3,7 @@
     src: url(../fonts/ConnectionIi-2wj8.otf);
 }
 
+
 .minting {
   
     /* background-color: transparent; */
@@ -15,9 +16,10 @@
 }
 
 .title {
-    color: rgb(0, 0, 0);
     font-family: bit;
     font-size: 48px;
+    text-align: center;
+    text-shadow: 2px 2px #201a16f6;
 }
 
 .card {
@@ -33,7 +35,6 @@
 }
 
 .card-title {
-    color:rgb(0, 0, 0);
     font-family: bit;
     font-size: 38px;
     font-weight: 500;
@@ -41,7 +42,6 @@
 }
 
 .card-text {
-    color: rgb(0, 0, 0);
     font-family: bit;
     font-size: 20px;
 }

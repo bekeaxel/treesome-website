@@ -16,7 +16,7 @@ export default class Navbar extends Component {
           <div className="container">
             <a className="navbar-brand text-t" href="/">
               <img src="/favicon.ico" alt="" width="50" height="50" className="d-inline-block " />
-              Treesome
+              <div className="brand">Treesome</div>
             </a>
             <div>
               <ul className="navbar-nav ml-auto">

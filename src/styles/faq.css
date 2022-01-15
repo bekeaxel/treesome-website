@@ -4,7 +4,7 @@
 }
 
 .faq {
-    background-color: rgb(214, 197, 176);
+    background-color: rgb(31, 51, 28);
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -12,3 +12,21 @@
     display: flex;
     flex-direction: column;
 }
+
+.accordion-item {
+    background-color: rgb(214, 197, 176);
+}
+
+.accordion-button {
+    background-color: rgb(161, 136, 120);
+}
+
+.accordion-button:enabled {
+    background-color: rgb(116, 71, 41);
+    color: rgb(214, 197, 176)
+}
+
+.accordion-header {
+    
+}
+
