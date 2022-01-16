@@ -14,6 +14,108 @@
 }
 
 .row-text {
-    font-size: 18px;
+    font-size: 40px;
     margin: 50px;
+}
+
+.main-timeline{
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+}
+.main-timeline:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+.main-timeline:before{
+    content: '';
+    background-color: rgb(56, 38, 23);
+    height: 100%;
+    width: 20px;
+    border-radius: 20px;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 0;
+    box-shadow: 5px 5px 3px rgba(26, 26, 26, 0.7);
+}
+.main-timeline .timeline{
+    width: 50%;
+    padding: 0 60px 0 0;
+    margin: 0 10px 20px 0;
+    float: left;
+}
+
+.main-timeline .description{
+    font-size: x-large;
+    letter-spacing: 0.5px;
+    margin: 0 25px 0;
+}
+.main-timeline .timeline-content{
+    background: #27221b;
+    text-align: center;
+    min-height: 100px;
+    padding: 0 0 20px;
+    border-radius: 15px;
+    display: block;
+    position: relative;
+    box-shadow: 5px 5px 3px rgba(26, 26, 26, 0.7);
+}
+.main-timeline .timeline-icon .icon {
+    font-size: 35px;
+}
+.main-timeline .timeline-content:hover{ text-decoration: none; }
+.main-timeline .timeline-icon{
+    color: #27221b;
+    background-color: #302a21;
+    font-size: 100px;
+    line-height: 93px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 5px solid #27221b;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    transform: translateY(-50%);
+    position: absolute;
+    top: 50%;
+    right: -110px;
+}
+
+
+.main-timeline .timeline:nth-child(even){
+    float: right;
+    padding: 0 0 0 60px;
+    margin: 0 0 20px 10px;
+}
+.main-timeline .timeline:nth-child(even) .timeline-icon{
+    right: auto;
+    left: -110px;
+}
+.main-timeline .timeline:nth-child(4n+2) .timeline-icon,
+.main-timeline .timeline:nth-child(4n+2) .title{ background-color: #302a21; }
+.main-timeline .timeline:nth-child(4n+3) .timeline-icon,
+.main-timeline .timeline:nth-child(4n+3) .title{ background-color: #302a21; }
+.main-timeline .timeline:nth-child(4n+4) .timeline-icon,
+.main-timeline .timeline:nth-child(4n+4) .title{ background-color: #302a21; }
+@media screen and (max-width:767px){
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even){
+        width: 100%;
+        padding: 0 110px 0 0;
+        margin: 0 0 20px 0;
+    }
+    .main-timeline .timeline:nth-child(even){ padding: 0 0 0 110px; }
+}
+@media screen and (max-width:479px){
+    .main-timeline .timeline,
+    .main-timeline .timeline:nth-child(even){
+        padding: 110px 0 0;
+    }
+    .main-timeline .timeline-icon,
+    .main-timeline .timeline:nth-child(even) .timeline-icon{
+        transform: translateY(0) translateX(-50%);
+        top: -110px;
+        left: 50%;
+        right: auto;
+    }
 }
