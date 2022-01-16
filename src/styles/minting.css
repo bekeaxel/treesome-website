@@ -14,6 +14,9 @@
     flex-direction: column;
     align-items: center;
     background-position: center;
+    resize: both;
+    background-repeat: no-repeat;
+    background-color: rgb(31, 51, 28);
 }
 
 .title {
