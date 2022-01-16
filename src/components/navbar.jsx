@@ -12,17 +12,18 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className="navigation" id="nav">
-        <nav className="navbar navbar-expand navbar-bg-color navbar-dark">
-          <div className="container">
+        <nav className="navbar navbar-expand-sm navbar-bg-color navbar-dark">
+          <div className="container-fluid">
             <a className="navbar-brand text-t" href="/">
               <img src="/favicon.ico" alt="" width="50" height="50" className="d-inline-block " />
-              <div className="brand">Treesome</div>
+              <div className="brand text-t">Treesome</div>
             </a>
-            <div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ml-auto">
-                <div className="link-container">
                   <li className="nav-item link text-t">
-                  {/* till About */}
                     <Link
                       activeClass="active"
                       to="about"
@@ -31,7 +32,7 @@ export default class Navbar extends Component {
                       offset={0}
                       duration={1000}
                     >
-                      About
+                      <a className="test">About</a>
                     </Link>
                   </li>
                   <li className="nav-item link text-t">
@@ -52,14 +53,14 @@ export default class Navbar extends Component {
                       to="faq"
                       spy={true}
                       smooth={true}
-                      offset={0}
+                      offset={-80}
                       duration={1000}
                     >
                       Faq
                       </Link>
                   </li>
-                </div>
-                <ul className="navbar-nav" style={{alignItems: "center"}}>
+                
+                <ul className="navbar-nav me-auto sm-icons" style={{alignItems: "center"}}>
                   <li className="nav-item">
                     <a className="nav-link" style={{padding: 4}} href= "https://twitter.com/TreesomeNFT">
                       <img alt="" src="/config/images/twitter.png" width="20" height="20"></img>

@@ -106,13 +106,16 @@ function Minting() {
   }, [blockchain.account]);
 
   const renderContent = () => {
-    if (isMobile) {
-      return <div> This content is unavailable on mobile</div>
-    }
+    // if (isMobile) {
+    //   return <div> This content is unavailable on mobile</div>
+    // }
     return (
       <div className="minting" id="mint" style={{
         backgroundImage: "url(/bg.gif)"
       }}>
+      {CONFIG.SHOW_MINTCARD ? (
+        <>
+        
         <div className="spacer-small"></div>
         <div className="title text-t">THIS IS TREESOME!</div>
         <div className="card text-center">
@@ -195,6 +198,9 @@ function Minting() {
             )}
           </div>
         </div>
+        </>
+        ) : null 
+        }
       </div>
     );
   }  

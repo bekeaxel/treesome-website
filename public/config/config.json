@@ -15,5 +15,6 @@
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/TreesomeNFT",
-  "SHOW_BACKGROUND": true
+  "SHOW_BACKGROUND": true,
+  "SHOW_MINTCARD": false
 }
