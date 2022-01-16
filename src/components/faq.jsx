@@ -56,13 +56,13 @@ function Faq() {
         </div>
     </div>
 </div> */}
-            <div className="container">
+            <div className="container" id="faq">
                 <h1 className="header text-t">Frequently Asked Questions</h1>
 
-                <div className="accordion" id="faq">
+                <div className="accordion">
                     <div class="accordion-item">
                         <h2 className="accordion-header" id="headingOne">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <button className="accordion-button collapsed text-t" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                             What is Treesome NFT?
                         </button>
                         </h2>
@@ -74,7 +74,7 @@ function Faq() {
                     </div>
                     <div class="accordion-item">
                         <h2 className="accordion-header" id="headingTwo">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                        <button className="accordion-button collapsed text-t" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                             Who are we?
                         </button>
                         </h2>
@@ -86,7 +86,7 @@ function Faq() {
                     </div>
                     <div class="accordion-item">
                         <h2 className="accordion-header" id="headingThree">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                        <button className="accordion-button collapsed text-t" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
                             Why should I mint a Treesome NFT?
                         </button>
                         </h2>
@@ -98,7 +98,7 @@ function Faq() {
                     </div>
                     <div class="accordion-item">
                         <h2 className="accordion-header" id="headingFour">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                        <button className="accordion-button collapsed text-t" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
                             Treesome? Threesome? What's up with the name?
                         </button>
                         </h2>
@@ -110,7 +110,7 @@ function Faq() {
                     </div>
                     <div class="accordion-item">
                         <h2 className="accordion-header" id="headingFive">
-                        <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+                        <button className="accordion-button collapsed text-t" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
                             When is mint? How much will each mint cost?
                         </button>
                         </h2>

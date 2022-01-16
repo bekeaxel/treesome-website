@@ -13,81 +13,33 @@
     flex-direction: column;
 }
 
+.accordion {
+    
+}
+
 .accordion-item {
     background-color: rgb(214, 197, 176);
 }
 
 .accordion-button {
     background-color: rgb(161, 136, 120);
+    border-color: aqua;
+}
+
+.accordion-button .collapsed {
+    
 }
 
 .accordion-button:enabled {
     background-color: rgb(116, 71, 41);
     color: rgb(214, 197, 176);
-    border-color: beige;
+}
+
+.accordion-body {
+    font-family: bit;
+
 }
 
 .accordion-header {
     
-}
-
-
-a:hover,a:focus{
-    text-decoration: none;
-    outline: none;
-}
-#accordion .panel{
-    border: none;
-    border-radius: 0;
-    margin-bottom: 5px;
-    box-shadow: none;
-}
-#accordion .panel-heading{
-    padding: 0;
-    border: none;
-    border-radius: 0;
-    position: relative;
-}
-#accordion .panel-title a{
-    display: block;
-    padding: 20px 30px;
-    margin: 0;
-    background: #e65e36;
-    font-size: 17px;
-    font-weight: bold;
-    color: #f9e2ad;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    position: relative;
-}
-#accordion .panel-title a:before,
-#accordion .panel-title a.collapsed:before{
-    content: "";
-    width: 20px;
-    height: 2px;
-    background: #f9e2ad;
-    position: absolute;
-    top: 30px;
-    right: 30px;
-}
-#accordion .panel-title a:after,
-#accordion .panel-title a.collapsed:after{
-    content: "";
-    width: 2px;
-    height: 20px;
-    background: #f9e2ad;
-    position: absolute;
-    bottom: 18px;
-    right: 39px;
-    transition: all 0.3s ease 0s;
-}
-#accordion .panel-title a:after{ height: 0; }
-#accordion .panel-body{
-    padding: 20px 30px;
-    background: #56522b;
-    border-top: 2px solid #000;
-    font-size: 15px;
-    color: #f9e2ad;
-    line-height: 28px;
-    letter-spacing: 1px;
 }

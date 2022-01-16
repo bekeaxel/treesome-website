@@ -113,11 +113,12 @@ function Minting() {
       <div className="minting" id="mint" style={{
         backgroundImage: "url(/bg.gif)"
       }}>
+      <div className="spacer-small"></div>
+      <div className="title text-t">THIS IS TREESOME!</div>
       {CONFIG.SHOW_MINTCARD ? (
         <>
         
-        <div className="spacer-small"></div>
-        <div className="title text-t">THIS IS TREESOME!</div>
+        
         <div className="card text-center">
           <div className="card-body">
             <h2 className="card-title text-t"> MINT A TREE</h2>
