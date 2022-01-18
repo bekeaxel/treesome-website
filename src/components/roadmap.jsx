@@ -18,7 +18,7 @@ function Roadmap() {
                                     <div class="timeline-icon"><p class="text-t icon">25%</p></div>
                                     
                                     <p class="description text-t">
-                                        25 unique giveaways for holders only
+                                        25 unique Treesome giveaways for holders only! Make sure to mint your TREE
                                     </p>
                                 </a>
                             </div>
@@ -26,7 +26,7 @@ function Roadmap() {
                                 <a class="timeline-content">
                                     <div class="timeline-icon"><p class="text-t icon">50%</p></div>
                                     <p class="description text-t">
-                                        Donation to forest charity
+                                        A large sum will be donated to a forest charity, which will be chosen by the community. Join our amazing community in our discord to be involved!
                                     </p>
                                 </a>
                             </div>
@@ -34,7 +34,7 @@ function Roadmap() {
                                 <a class="timeline-content">
                                     <div class="timeline-icon"><p class="text-t icon">75%</p></div>
                                     <p class="description text-t">
-                                        MAYC NFT giveaway + exclusive alpha
+                                        MAYC NFT giveaway, yes you heard it MAYC. Holders will have exclusive access to our alpha channel
                                     </p>
                                 </a>
                             </div>
@@ -42,7 +42,7 @@ function Roadmap() {
                                 <a class="timeline-content">
                                     <div class="timeline-icon"><p class="text-t icon">100%</p></div>
                                     <p class="description text-t">
-                                        Companion collection [free for holders]    
+                                        A new companion collection will be created for you to mint [will be free for holders]    
                                     </p>
                                 </a>
                             </div>

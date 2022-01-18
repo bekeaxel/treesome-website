@@ -57,8 +57,12 @@ function Faq() {
     </div>
 </div> */}
             <div className="container" id="faq">
-                <h1 className="header text-t">Frequently Asked Questions</h1>
+                <div className="spacer-large"></div>
+                <div className="spacer-large"></div>
+                <div className="spacer-large"></div>  
 
+                <h1 className="header text-t">Frequently Asked Questions</h1>
+                
                 <div className="accordion">
                     <div class="accordion-item">
                         <h2 className="accordion-header" id="headingOne">
@@ -122,6 +126,10 @@ function Faq() {
                     </div>
                 
                 </div>
+                <div className="spacer-large"></div>  
+                <div className="spacer-large"></div>  
+                <div className="spacer-large"></div>  
+
             </div>
         </div>
     )

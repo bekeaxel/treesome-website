@@ -17,7 +17,7 @@ function About() {
                   <div class="atropos-inner">
                     <img
                       className="img-fluid rounded mb-4 mb-lg-0"
-                      src="/config/images/pot.png"
+                      src="/config/images/teaser.gif"
                       alt=""
                     />
                   </div>

@@ -21,10 +21,12 @@
 
 .title {
     font-family: bit;
-    font-size: 48px;
+    font-size: 68px;
     text-align: center;
-    text-shadow: 2px 2px #201a16f6;
+    text-shadow: 2px 2px #8a8a8af6;
+    color: rgb(37, 37, 37);
 }
+
 
 .card {
     background-color: rgba(13, 31, 13, 0.3);

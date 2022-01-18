@@ -23,38 +23,39 @@ export default class Navbar extends Component {
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav ml-auto">
-                  <li className="nav-item link text-t">
+                  <li className="nav-item link-t text-t">
                     <Link
                       activeClass="active"
                       to="about"
                       spy={true}
-                      smooth={true}
+                      smooth={false}
                       offset={0}
                       duration={1000}
                     >
                       <a className="test">About</a>
                     </Link>
                   </li>
-                  <li className="nav-item link text-t">
+                  <li className="nav-item link-t text-t">
                     <Link
                       activeClass="active"
                       to="roadmap"
                       spy={true}
-                      smooth={true}
+                      smooth={false}
                       offset={0}
-                      duration={1000}
+                      duration={10000}
                     >
                       Roadmap
                     </Link>
                   </li>
-                  <li className="nav-item link text-t">
+                  <li className="nav-item link-t text-t">
                     <Link 
                       activeClass="active"
                       to="faq"
                       spy={true}
-                      smooth={true}
-                      offset={-80}
-                      duration={1000}
+                      smooth={false}
+                      offset={0}
+                      duration={10000}
+                      isDynamic={true}
                     >
                       Faq
                       </Link>
@@ -71,6 +72,12 @@ export default class Navbar extends Component {
                       <img alt="" src="/config/images/openseaIcon.png" width="20" height="20"></img>
                     </a>
                   </li>
+                  <li className="nav-item">
+                    <a className="nav-link" style={{padding: 4}} href="https://discord.gg/srnZsxH72u">
+                      <img alt="" src="/config/images/discordIcon.png" width="20" height="20"></img>
+                    </a>
+                  </li>
+                  
                 </ul>
               </ul>
             </div>
