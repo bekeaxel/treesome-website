@@ -1,5 +1,5 @@
-.about {
-   
+.sneakpeak {
+    
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -8,3 +8,7 @@
     flex-direction: column;
 }
 
+
+.s-image{
+    width: 100%;
+}

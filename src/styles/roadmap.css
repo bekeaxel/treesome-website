@@ -1,5 +1,5 @@
 .roadmap {
-    background-color: rgb(31, 51, 28);
+    
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -29,7 +29,8 @@
 }
 .main-timeline:before{
     content: '';
-    background-color: rgb(56, 38, 23);
+    background-color: #584c32;
+    /* background-color: rgb(56, 38, 23); */
     height: 100%;
     width: 20px;
     border-radius: 20px;
@@ -52,7 +53,7 @@
     margin: 0 25px 0;
 }
 .main-timeline .timeline-content{
-    background: #27221b;
+    background: #584c32;
     text-align: center;
     min-height: 120px;
     padding: 0 0 20px;
@@ -70,8 +71,8 @@
 }
 .main-timeline .timeline-content:hover{ text-decoration: none; }
 .main-timeline .timeline-icon{
-    color: #27221b;
-    background-color: #302a21;
+    color: #584c32;
+    background-color: #584c32;
     font-size: 100px;
     line-height: 93px;
     width: 100px;
@@ -122,4 +123,10 @@
         left: 50%;
         right: auto;
     }
+}
+
+
+.spacer-large {
+    height: 32px;
+    width: 32px;   
 }

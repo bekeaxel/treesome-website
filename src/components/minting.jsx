@@ -4,7 +4,6 @@ import { connect } from "../redux/blockchain/blockchainActions";
 import { fetchData } from "../redux/data/dataActions";
 import "../styles/minting.css";
 import "../styles/fonts.css";
-import {isMobile} from 'react-device-detect';
 
 
 const truncate = (input, len) =>
@@ -107,14 +106,14 @@ function Minting() {
 
   const renderContent = () => {
     return (
-      <div className="minting" id="mint" style={{
+      <div className="minting img-fluid" id="mint" style={{
         backgroundImage: "url(/bg.gif)"
       }}>
       
       {CONFIG.SHOW_MINTCARD ? (
         <>
         <div className="spacer-large"></div>
-        <div className="title text-t">THIS IS TREESOME!</div>
+        <div className="title text-t">Come and join the Treesome</div>
         
         <div className="card text-center">
           <div className="card-body">
@@ -207,7 +206,7 @@ function Minting() {
             <div className="spacer-large"></div>
             <div className="spacer-large"></div>
             <div className="spacer-large"></div>
-            <div className="title text-t">THIS IS TREESOME!</div>
+            <h1 className="title text-t">Come and join the Treesome</h1>
           </>
         ) 
         }

@@ -57,12 +57,8 @@ function Faq() {
     </div>
 </div> */}
             <div className="container" id="faq">
-                <div className="spacer-large"></div>
-                <div className="spacer-large"></div>
                 <div className="spacer-large"></div>  
-
                 <h1 className="header text-t">Frequently Asked Questions</h1>
-                
                 <div className="accordion">
                     <div class="accordion-item">
                         <h2 className="accordion-header" id="headingOne">
@@ -72,7 +68,9 @@ function Faq() {
                         </h2>
                         <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faq">
                         <div className="accordion-body">
-                            Well hello! Welcome to our NFT Project, Treesome. We are 10 000 randomly generated NFTs floating around in the Ethereum blockchain (ERC-721), handmade with love by us developers. Treesome has been an ongoing project for months and we have many exciting things planned. 
+                            Welcome to our NFT Project, Treesome. We are 10 000 randomly generated NFTs 
+                            floating around in the Ethereum blockchain (ERC-721), handmade with love by us developers. 
+                            Treesome has been an ongoing project for months and we have many exciting things planned. 
                         </div>
                         </div>
                     </div>
@@ -84,7 +82,9 @@ function Faq() {
                         </h2>
                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faq">
                         <div className="accordion-body">
-                            Treesome is made by a cool, charming, good-looking, talented and humble group of close friends who are passionate about NFTs and crypto. We love to innovate and create, and aspire to do something unique. We believe the community is the most imporant part of a project, and will always try to prioritize this.
+                            Treesome is made by a cool, charming, good-looking, talented and humble group of close friends who are passionate
+                            about NFTs and crypto. We love to innovate and create, and aspire to do something unique. We believe the community 
+                            is the most imporant part of a project, and will always try to prioritize this.
                         </div>
                         </div>
                     </div>
@@ -96,7 +96,11 @@ function Faq() {
                         </h2>
                         <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faq">
                         <div className="accordion-body">
-                            Our goal is to build an amazing and supportive community which works together to achieve great things. We want everyone, from every background, from every part of the world, to feel safe and welcome. We will always work on adding value to holders and will be creative with it. Not only will we host events, giveaways and competitions, but we will also always listen and take into consideration what the community wants.
+                            Our goal is to build an amazing and supportive community which works together to achieve great things. 
+                            We want everyone, from every background, from every part of the world, to feel safe and welcome. 
+                            We will always work on adding value to holders and will be creative with it. 
+                            Not only will we host events, giveaways and competitions, but we will also always listen and take 
+                            into consideration what the community wants.
                         </div>
                         </div>
                     </div>
@@ -124,12 +128,20 @@ function Faq() {
                         </div>
                         </div>
                     </div>
-                
+                    <div class="accordion-item">
+                        <h2 className="accordion-header" id="headingSix">
+                        <button className="accordion-button collapsed text-t" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                            How is Treesome going to help the environment?
+                        </button>
+                        </h2>
+                        <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faq">
+                        <div className="accordion-body">
+                            As specified in the roadmap, when 50% of all NFT's have been minted, a large sum will be donated to a forest charity.
+                            The charity will be chosen 100% by the Treesome community! Ain't that nice?
+                        </div>
+                        </div>
+                    </div>
                 </div>
-                <div className="spacer-large"></div>  
-                <div className="spacer-large"></div>  
-                <div className="spacer-large"></div>  
-
             </div>
         </div>
     )

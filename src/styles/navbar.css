@@ -1,7 +1,8 @@
 
 
 .navbar-bg-color {
-    background-color: rgb(31, 51, 28);
+    /* background-color: rgb(31, 51, 28); */
+    background-color: #647a42;
 }
 
 .link-container {
@@ -15,9 +16,11 @@
 }
 
 .link-t {
-  margin-top: 1vh;
-  margin-right: 2vh;
-
+    margin-top: 1vh;
+    margin-right: 2vh;
+}
+.link-t:hover{
+    font-weight: bolder;
 }
 
 .nav-item {
@@ -33,6 +36,9 @@
 .brand {
     margin: auto;
 }
+.brand:hover {
+    font-weight: bolder;
+}
 
 .link-btn {
     background-color: transparent;
@@ -41,6 +47,9 @@
 .sm-icons {
     display: flex;
     flex-direction: row;
+}
+.sm-image:hover{
+    transform: scale(1.1);
 }
 
 ul.navbar-nav.ml-auto {

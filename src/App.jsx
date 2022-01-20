@@ -7,6 +7,8 @@ import Navbar from "./components/navbar";
 import Minting from "./components/minting";
 import Faq from "./components/faq";
 import Footer from "./components/footer"
+import Team from "./components/team"
+import Sneakpeak from "./components/sneakpeak"
 
 class App extends Component {
   render() {
@@ -16,7 +18,9 @@ class App extends Component {
         <Minting />
         <About />
         <Roadmap />
+        <Sneakpeak />
         <Faq />
+        <Team />
         <Footer />
       </div>
     );

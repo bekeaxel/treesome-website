@@ -9,6 +9,7 @@
     /* background-color: transparent; */
     
     width: 100%;
+    /* height: auto; */
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -16,18 +17,18 @@
     background-position: center;
     resize: both;
     background-repeat: no-repeat;
-    background-color: rgb(31, 51, 28);
+    
 }
 
 .title {
     font-family: bit;
     font-size: 68px;
     text-align: center;
-    text-shadow: 2px 2px #8a8a8af6;
+    text-shadow: 2px 2px rgb(255, 226, 188);
     color: rgb(37, 37, 37);
 }
 
-
+/* 
 .card {
     background-color: rgba(13, 31, 13, 0.3);
     border-style: solid;
@@ -55,7 +56,7 @@
 a.card-text:hover {
     text-decoration: none;
     color:rgb(0, 0, 0);
-}
+} */
 
 .mint-container {
     display: block;

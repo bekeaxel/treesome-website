@@ -12,7 +12,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div className="navigation" id="nav">
-        <nav className="navbar navbar-expand-sm navbar-bg-color navbar-dark">
+        <nav className="navbar navbar-expand-md navbar-bg-color navbar-dark">
           <div className="container-fluid">
             <a className="navbar-brand text-t" href="/">
               <img src="/favicon.ico" alt="" width="50" height="50" className="d-inline-block " />
@@ -60,21 +60,32 @@ export default class Navbar extends Component {
                       Faq
                       </Link>
                   </li>
-                
+                  <li className="nav-item link-t text-t">
+                    <Link
+                      activeClass="active"
+                      to="team"
+                      spy={true}
+                      smooth={false}
+                      offset={0}
+                      duration={10000}
+                    >
+                      Team
+                    </Link>
+                  </li>
                 <ul className="navbar-nav me-auto sm-icons" style={{alignItems: "center"}}>
                   <li className="nav-item">
                     <a className="nav-link" style={{padding: 4}} href= "https://twitter.com/TreesomeNFT">
-                      <img alt="" src="/config/images/twitter.png" width="20" height="20"></img>
+                      <img className="sm-image" alt="" src="/images/twitter.png" width="20" height="20"></img>
                     </a>
                   </li>
-                  <li className="nav-item">
+                  {/* <li className="nav-item">
                     <a className="nav-link" style={{padding: 4}} href="https://opensea.io/TreesomeNFT">
-                      <img alt="" src="/config/images/openseaIcon.png" width="20" height="20"></img>
+                      <img className="sm-image" alt="" src="/images/openseaIcon.png" width="20" height="20"></img>
                     </a>
-                  </li>
+                  </li> */}
                   <li className="nav-item">
                     <a className="nav-link" style={{padding: 4}} href="https://discord.gg/srnZsxH72u">
-                      <img alt="" src="/config/images/discordIcon.png" width="20" height="20"></img>
+                      <img className="sm-image" alt="" src="/images/discordIcon.png" width="20" height="20"></img>
                     </a>
                   </li>
                   

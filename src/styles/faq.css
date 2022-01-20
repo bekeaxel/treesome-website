@@ -4,7 +4,7 @@
 }
 
 .faq {
-    background-color: rgb(31, 51, 28);
+   
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -23,6 +23,7 @@
 
 .accordion-button {
     background-color: rgb(161, 136, 120);
+    margin: auto;
 }
 
 .accordion-button .collapsed {
@@ -30,8 +31,8 @@
 }
 
 .accordion-button:enabled {
-    background-color: rgb(116, 71, 41);
-    color: rgb(214, 197, 176);
+    background-color: #302a21;
+    color: rgb(255, 246, 234);
 }
 
 .accordion-button::after {
