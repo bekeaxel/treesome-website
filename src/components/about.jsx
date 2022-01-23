@@ -7,11 +7,11 @@ import "../styles/fonts.css"
 function About() {
   return (
     <div className="about">
-      <div className="container">
-        <div className="row align-items-center my-5">
+      <div className="container" style={{textAlign: "center"}}>
+        <div className="row align-items-center my-5" >
           <div className="col-lg-7">
             <img
-              className="img-fluid rounded mb-4 mb-lg-0"
+              className="img-fluid a-image rounded mb-4 mb-lg-0"
               src="/images/collage.jpg"
               alt=""
             />
@@ -28,6 +28,11 @@ function About() {
             </p>
           </div>
         </div>
+        <img 
+          className="v-image"
+          src="/images/vine.png"
+          alt=""
+        />
       </div>
     </div>
   );

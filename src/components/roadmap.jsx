@@ -8,7 +8,7 @@ function Roadmap() {
     return (
         <div className="roadmap" id="roadmap">
 
-            <div class="container">
+            <div class="container" style={{textAlign: "center"}}>
                 <h1 className="header text-t">ROADMAP v1</h1>
                 <div class="row">
                     <div class="col-md-12">
@@ -49,7 +49,11 @@ function Roadmap() {
                         </div>
                     </div>
                 </div>
-                
+                <img 
+                    className="v-image"
+                    src="/images/vine.png"
+                    alt=""
+                />
             </div>
 
             {/* <div className="container">

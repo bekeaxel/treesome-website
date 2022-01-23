@@ -113,7 +113,7 @@ function Minting() {
       {CONFIG.SHOW_MINTCARD ? (
         <>
         <div className="spacer-large"></div>
-        <div className="title text-t">Come and join the Treesome</div>
+        <div className="title text-t">We're planting half a million trees, together!</div>
         
         <div className="card text-center">
           <div className="card-body">
@@ -198,15 +198,7 @@ function Minting() {
         </>
         ) : (
           <>
-            <div className="spacer-large"></div>
-            <div className="spacer-large"></div>
-            <div className="spacer-large"></div>
-            <div className="spacer-large"></div>
-            <div className="spacer-large"></div>
-            <div className="spacer-large"></div>
-            <div className="spacer-large"></div>
-            <div className="spacer-large"></div>
-            <h1 className="title text-t">Come and join the Treesome</h1>
+            <h1 className="title text-t">We're planting half a million trees, <br></br>together!</h1>
           </>
         ) 
         }

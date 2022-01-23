@@ -6,9 +6,9 @@ function Team() {
 
     return (
         <div className="team" id="team">
-            <div className="container">
+            <div className="container" style={{textAlign: "center"}}>
                 <h1 className="header text-t">Meet the team!</h1>
-                    <div class="row">
+                    <div class="row" style={{textAlign: "start"}}>
                         
                             <div className="card">
                                 <img src="/images/mackan.png" className="team-image" alt="" />
@@ -43,7 +43,11 @@ function Team() {
                     <a className="btn discord-btn" role="button" href="https://discord.gg/srnZsxH72u">
                         <span className="text">Discord</span></a>
                 </div>
-                <div className="spacer-large"></div>
+                <img 
+                    className="v-image"
+                    src="/images/vine.png"
+                    alt=""
+                />
             </div>
         </div>
     );

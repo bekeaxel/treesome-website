@@ -56,8 +56,8 @@ function Faq() {
         </div>
     </div>
 </div> */}
-            <div className="container" id="faq">
-                <div className="spacer-large"></div>  
+            <div className="container" id="faq" style={{textAlign: "center"}}>
+                {/* <div className="spacer-large"></div>   */}
                 <h1 className="header text-t">Frequently Asked Questions</h1>
                 <div className="accordion">
                     <div class="accordion-item">
@@ -142,6 +142,11 @@ function Faq() {
                         </div>
                     </div>
                 </div>
+                <img 
+                    className="v-image"
+                    src="/images/vine.png"
+                    alt=""
+                />
             </div>
         </div>
     )

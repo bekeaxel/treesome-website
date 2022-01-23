@@ -18,6 +18,7 @@
 .link-t {
     margin-top: 1vh;
     margin-right: 2vh;
+    font-size: x-large;
 }
 .link-t:hover{
     font-weight: bolder;
@@ -35,6 +36,7 @@
 }
 .brand {
     margin: auto;
+    font-size: x-large;
 }
 .brand:hover {
     font-weight: bolder;
@@ -49,7 +51,7 @@
     flex-direction: row;
 }
 .sm-image:hover{
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 ul.navbar-nav.ml-auto {
