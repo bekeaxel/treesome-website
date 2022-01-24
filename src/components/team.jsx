@@ -18,7 +18,6 @@ function Team() {
                                         <li className="card-text text-t">Co-founder</li>
                                         <li className="card-text text-t">Head of operations</li>
                                         <li className="card-text text-t">Marketing genius</li>
-                                        <li className="card-text text-t">Proud DADDY</li>
                                     </ul>
                                 </div>
                             
@@ -31,7 +30,6 @@ function Team() {
                                         <li className="card-text text-t">Co-founder</li>
                                         <li className="card-text text-t">Amazing developer</li>
                                         <li className="card-text text-t">Full-time nerd</li>
-                                        <li className="card-text text-t">Proud DADDY</li>
                                     </ul>
                                 </div>
                             </div>
@@ -41,11 +39,11 @@ function Team() {
                     <h1 className="text-t discord-text">Join our discord!</h1>
                     <div className="spacer-medium"></div>
                     <a className="btn discord-btn" role="button" href="https://discord.gg/srnZsxH72u">
-                        <span className="text">Discord</span></a>
+                        <span className="text-t">Step in to the forest</span></a>
                 </div>
                 <img 
                     className="v-image"
-                    src="/images/vine.png"
+                    src="/images/vine2x.png"
                     alt=""
                 />
             </div>

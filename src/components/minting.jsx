@@ -106,7 +106,7 @@ function Minting() {
 
   const renderContent = () => {
     return (
-      <div className="minting img-fluid" id="mint" style={{
+      <div className="minting" id="mint" style={{
         backgroundImage: "url(/bg.gif)"
       }}>
       

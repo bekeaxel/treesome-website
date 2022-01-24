@@ -8,13 +8,8 @@
     background-size: cover;
     background-position: center;
     width: 100%;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
-}
-
-.accordion {
-    
 }
 
 .accordion-item {
@@ -26,13 +21,9 @@
     margin: auto;
 }
 
-.accordion-button .collapsed {
-    
-}
-
 .accordion-button:enabled {
     background-color: #302a21;
-    color: rgb(255, 246, 234);
+    color: #e1e4c9;
 }
 
 .accordion-button::after {
@@ -52,11 +43,7 @@
 
 .accordion-body {
     font-family: bit;
-
-}
-
-.accordion-header {
-    
+    text-align: start;
 }
 
 .spacer-x-small {
@@ -77,15 +64,4 @@
 .spacer-large {
     height: 32px;
     width: 32px;   
-}
-
-.v-image {
-    width: 80%;
-   
-}
-
-@media screen and (min-width: 768px) {
-    .v-image {
-        width: 60%;
-    }
 }

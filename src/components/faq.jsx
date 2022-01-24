@@ -124,27 +124,26 @@ function Faq() {
                         </h2>
                         <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faq">
                         <div className="accordion-body">
-                            Minting date will be done in early 2022. The minting cost is still TBA.
+                            Minting date will be done in early 2022. Each NFT will cost 0.08 eth.
                         </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 className="accordion-header" id="headingSix">
                         <button className="accordion-button collapsed text-t" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                            How is Treesome going to help the environment?
+                            How many trees will be planted?
                         </button>
                         </h2>
                         <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faq">
                         <div className="accordion-body">
-                            As specified in the roadmap, when 50% of all NFT's have been minted, a large sum will be donated to a forest charity.
-                            The charity will be chosen 100% by the Treesome community! Ain't that nice?
+                            If all goes well around half a million trees will be planted!!
                         </div>
                         </div>
                     </div>
                 </div>
                 <img 
                     className="v-image"
-                    src="/images/vine.png"
+                    src="/images/vine2x.png"
                     alt=""
                 />
             </div>

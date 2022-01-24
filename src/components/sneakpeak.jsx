@@ -10,7 +10,7 @@ function Sneakpeak() {
                 <img className="s-image" alt="" src="/images/axelmackan_forest.gif"></img>
                 <img 
                     className="v-image"
-                    src="/images/vine.png"
+                    src="/images/vine2x.png"
                     alt=""
                 />
             </div>

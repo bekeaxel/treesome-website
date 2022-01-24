@@ -1,6 +1,4 @@
 .team {
-    /* background-color: #284724; */
-    
     background-size: cover;
     background-position: center;
     width: 100%;
@@ -13,12 +11,6 @@
     align-items: center;
 }
 
-/* .card {
-    width: 18rem; 
-    margin: auto;
-    background-color: rgb(75, 53, 33);
-} */
-
 .card-text {
     font-size: medium;
 }
@@ -27,19 +19,14 @@
     font-size: larger;
 }
 
-/* <button class="button-56" role="button">Button 56</button> */
-
 .card {
   width: 18rem;
+  padding: 0;
   margin-top: 15px;
   margin-left: auto;
   margin-right: auto;
-  background-color: #374c33;
-  /* background-color: #6d6055; */
-  
+  background-color: #302a21;
   border-radius: 12px;
-  /* color: #111; */
-  
   border-radius: 4px;
   box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
   transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
@@ -48,16 +35,14 @@
 
 
 .card:hover{
-  /* background-color: #6d6055; */
   border: 2px solid #111;
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-@media (min-width: 768px) {
-  .button-56 {
-    padding: 0 40px;
-  }
+.team-image {
+  border-radius: 50%;
+  margin: 12px 12px 0 12px;
 }
 
 .discord-container {
@@ -67,23 +52,23 @@
 
 .discord-text {
     font-size: x-large;
+    margin-top: 40px;
 }
 
 .discord-btn {
   margin: 0 auto;
   align-items: center;
-  background-image: linear-gradient(144deg,#97744b, #5d8024 50%,#123f4b);
+  background-image: linear-gradient(144deg,#4b392b, #193623 50%,#123f4b);
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(1, 31, 8, 0.247) 0 15px 30px -5px;
   box-sizing: border-box;
-  color: #FFFFFF;
   display: flex;
   font-family: bit;
   font-size: 20px;
   justify-content: center;
   line-height: 1em;
-  max-width: 280px;
+  max-width: 350px;
   min-width: 120px;
   padding: 3px;
   text-decoration: none;
@@ -92,6 +77,7 @@
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
+  text-align: center;
 }
 
 .discord-btn:active,
@@ -100,7 +86,7 @@
 }
 
 .discord-btn span {
-  background-color: rgb(80, 80, 32);
+  background-color: #302a21;
   padding: 16px 24px;
   border-radius: 6px;
   width: 100%;
@@ -119,11 +105,6 @@
   }
 }
 
-.team-image {
-  border-radius: 50%;
-  margin-top: 4px;
-}
-
 
 
 .spacer-large {
@@ -136,14 +117,3 @@
     width: 24px;
 }
 
-
-.v-image {
-  width: 80%;
- 
-}
-
-@media screen and (min-width: 768px) {
-  .v-image {
-      width: 60%;
-  }
-}

@@ -6,6 +6,18 @@
     width: 100%;
   } */
 
-  .bg {
-    background-color:#647a42;
-  }
+.bg {
+  background-color:#374c33;
+}
+
+.v-image {
+  width: 100%;
+
+}
+
+@media screen and (min-width: 768px) {
+    .v-image {
+        
+        width: 100%;
+    }
+}

@@ -30,7 +30,7 @@ function About() {
         </div>
         <img 
           className="v-image"
-          src="/images/vine.png"
+          src="/images/vine2x.png"
           alt=""
         />
       </div>

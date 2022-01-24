@@ -75,7 +75,7 @@ export default class Navbar extends Component {
                 <ul className="navbar-nav me-auto sm-icons" style={{alignItems: "center"}}>
                   <li className="nav-item">
                     <a className="nav-link" style={{padding: 4}} href= "https://twitter.com/TreesomeNFT">
-                      <img className="sm-image" alt="" src="/images/twitter.png" width="20" height="20"></img>
+                      <img className="sm-image" alt="" src="/images/twitter.png" width="25" height="25"></img>
                     </a>
                   </li>
                   {/* <li className="nav-item">
@@ -85,7 +85,7 @@ export default class Navbar extends Component {
                   </li> */}
                   <li className="nav-item">
                     <a className="nav-link" style={{padding: 4}} href="https://discord.gg/srnZsxH72u">
-                      <img className="sm-image" alt="" src="/images/discordIcon.png" width="20" height="20"></img>
+                      <img className="sm-image" alt="" src="/images/discordIcon.png" width="25" height="25"></img>
                     </a>
                   </li>
                   

@@ -5,22 +5,14 @@
 
 
 .minting {
-  
-    /* background-color: transparent; */
-    
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     background-position: center;
-    resize: both;
+    background-size: cover;
     background-repeat: no-repeat;
-    /* background: cover; */
-    /*border-width: 3px;
-    border-style: groove; */
-    /* border-color: rgb(0, 0, 0); */
-    /* bßox-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06); */
 }
 
 .title {
@@ -28,7 +20,6 @@
     font-size: 68px;
     text-align: center;
     text-shadow: 3px 3px rgb(58, 58, 58);
-    color: #ebeeec;
     margin: auto;
 }
 
