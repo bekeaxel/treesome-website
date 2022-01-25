@@ -13,7 +13,7 @@ import Sneakpeak from "./components/sneakpeak"
 class App extends Component {
   render() {
     return (
-      <div className="App bg">
+      <div className="App">
         <Navbar />
         <Minting />
         <About />

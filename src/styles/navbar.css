@@ -17,7 +17,8 @@
 
 .link-t {
     margin-top: 1vh;
-    margin-right: 2vh;
+    margin-right: 1vh;
+    margin-left: 1vh;
     font-size: x-large;
 }
 .link-t:hover{

@@ -29,7 +29,7 @@ function Team() {
                                     <ul>
                                         <li className="card-text text-t">Co-founder</li>
                                         <li className="card-text text-t">Amazing developer</li>
-                                        <li className="card-text text-t">Full-time nerd</li>
+                                        <li className="card-text text-t">Blockchain enthusiast</li>
                                     </ul>
                                 </div>
                             </div>

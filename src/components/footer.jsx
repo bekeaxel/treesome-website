@@ -18,7 +18,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a className="" style={{padding: 4, margin: "4px"}} href="https://discord.gg/srnZsxH72u">
+              <a className="" style={{padding: 4, margin: "4px"}} href="https://discord.gg/TreesomeNFT">
                 <img className="sm-image" alt="" src="/images/discordIcon.png" width="40" height="40"></img>
               </a>
             </li>

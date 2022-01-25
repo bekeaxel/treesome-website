@@ -62,15 +62,16 @@ function Faq() {
                 <div className="accordion">
                     <div class="accordion-item">
                         <h2 className="accordion-header" id="headingOne">
-                        <button className="accordion-button collapsed text-t" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                        <button className="accordion-button collapsed text-t" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                             What is Treesome NFT?
                         </button>
                         </h2>
                         <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#faq">
                         <div className="accordion-body">
-                            Welcome to our NFT Project, Treesome. We are 10 000 randomly generated NFTs 
-                            floating around in the Ethereum blockchain (ERC-721), handmade with love by us developers. 
-                            Treesome has been an ongoing project for months and we have many exciting things planned. 
+                            The collection is built on the Ethereum blockchain as ERC-721 tokens, 
+                            and consists of 10 000 randomly generated NFTs. Our main goal is to 
+                            help our environment and lead a good example for future NFT projects, 
+                            as well as to give back to our community.
                         </div>
                         </div>
                     </div>
@@ -82,9 +83,9 @@ function Faq() {
                         </h2>
                         <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faq">
                         <div className="accordion-body">
-                            Treesome is made by a cool, charming, good-looking, talented and humble group of close friends who are passionate
-                            about NFTs and crypto. We love to innovate and create, and aspire to do something unique. We believe the community 
-                            is the most imporant part of a project, and will always try to prioritize this.
+                            Treesome is made by a cool, charming, good-looking, talented and humble 
+                            group of close friends who are passionate about NFTs and crypto. We love to 
+                            innovate and create, and aspire to do something unique. 
                         </div>
                         </div>
                     </div>
@@ -96,11 +97,11 @@ function Faq() {
                         </h2>
                         <div id="collapseThree" className="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faq">
                         <div className="accordion-body">
-                            Our goal is to build an amazing and supportive community which works together to achieve great things. 
-                            We want everyone, from every background, from every part of the world, to feel safe and welcome. 
-                            We will always work on adding value to holders and will be creative with it. 
-                            Not only will we host events, giveaways and competitions, but we will also always listen and take 
-                            into consideration what the community wants.
+                            If you are interested in making a real difference and want to join an amazing and 
+                            supportive community, this project is for you. Our main goal is to help our environment, 
+                            but we will always work hard to deliver utility to our holders as well. 
+                            Holding a Treesome NFT already comes with a lot of benefits, such as a free companion collection, 
+                            alpha channel and more, but will continue to expand and give as the project moves forward.
                         </div>
                         </div>
                     </div>
@@ -112,7 +113,7 @@ function Faq() {
                         </h2>
                         <div id="collapseFour" className="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faq">
                         <div className="accordion-body">
-                            A combination of the word wholesome and, well... tree. Or something like that atleast.
+                            A combination of the word wholesome and, well... tree. Or something like that at least.
                         </div>
                         </div>
                     </div>
@@ -124,19 +125,20 @@ function Faq() {
                         </h2>
                         <div id="collapseFive" className="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faq">
                         <div className="accordion-body">
-                            Minting date will be done in early 2022. Each NFT will cost 0.08 eth.
+                            Minting will be done in mid/late February. One NFT will cost 0.08 eth. 
                         </div>
                         </div>
                     </div>
                     <div class="accordion-item">
                         <h2 className="accordion-header" id="headingSix">
                         <button className="accordion-button collapsed text-t" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
-                            How many trees will be planted?
+                            More questions?
                         </button>
                         </h2>
                         <div id="collapseSix" className="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faq">
                         <div className="accordion-body">
-                            If all goes well around half a million trees will be planted!!
+                            Feel free to contact us at TreesomeNFT@gmail.com or send us a message in Discord (TreesomeNFT#0001 and 
+                            UltimateS33D#0001) or Twitter (@TreesomeNFT)
                         </div>
                         </div>
                     </div>

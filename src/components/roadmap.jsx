@@ -29,7 +29,7 @@ function Roadmap() {
                     </div>
                     <div className="col-sm-10">
                         <h5 className="row-title text-t">MAYC Giveaway / Alpha channel</h5>
-                        <p className="text-t row-text">Our environment is important, but so is our community, and we wouldn't be nothing 
+                        <p className="text-t row-text">Our environment is important, but so is our community, and we would be nothing 
                                         without it! 1 MAYC NFT giveaway for our holders + launch of our alpha channel, where you 
                                         will find all the information you need about new projects, all in one place! Don't miss the 
                                         next big thing!</p>
