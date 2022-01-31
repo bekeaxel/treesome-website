@@ -78,16 +78,16 @@ export default class Navbar extends Component {
                       <img className="sm-image" alt="" src="/images/twitter.png" width="25" height="25"></img>
                     </a>
                   </li>
-                  {/* <li className="nav-item">
-                    <a className="nav-link" style={{padding: 4}} href="https://opensea.io/TreesomeNFT">
-                      <img className="sm-image" alt="" src="/images/openseaIcon.png" width="20" height="20"></img>
-                    </a>
-                  </li> */}
                   <li className="nav-item">
+                    <a className="nav-link" style={{padding: 4}} href="https://opensea.io/TreesomeNFT">
+                      <img className="sm-image" alt="" src="/images/openseaIcon.png" width="25" height="25"></img>
+                    </a>
+                  </li>
+                  {/* <li className="nav-item">
                     <a className="nav-link" style={{padding: 4}} href="https://discord.gg/TreesomeNFT">
                       <img className="sm-image" alt="" src="/images/discordIcon.png" width="25" height="25"></img>
                     </a>
-                  </li>
+                  </li> */}
                   
                 </ul>
               </ul>

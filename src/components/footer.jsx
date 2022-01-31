@@ -18,10 +18,15 @@ function Footer() {
               </a>
             </li>
             <li>
+              <a className="nav-link" style={{padding: 4}} href="https://opensea.io/TreesomeNFT">
+                <img className="sm-image" alt="" src="/images/openseaIcon.png" width="40" height="40"></img>
+              </a>
+            </li>
+            {/* <li>
               <a className="" style={{padding: 4, margin: "4px"}} href="https://discord.gg/TreesomeNFT">
                 <img className="sm-image" alt="" src="/images/discordIcon.png" width="40" height="40"></img>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </footer>
