@@ -18,7 +18,7 @@ function Footer() {
               </a>
             </li>
             <li>
-              <a className="nav-link" style={{padding: 4}} href="https://opensea.io/TreesomeNFT">
+              <a className="" style={{padding: 4, margin: "4px"}} href="https://opensea.io/TreesomeNFT">
                 <img className="sm-image" alt="" src="/images/openseaIcon.png" width="40" height="40"></img>
               </a>
             </li>
