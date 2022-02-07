@@ -13,6 +13,8 @@ function About() {
           src="/images/vine2x.png"
           alt=""
         />
+        <h1 className="text-t header" style={{textAlign: "center"}}>New article about treesome! Check it out!</h1>
+        <a  className="text-t link" href="https://www.nftsstreet.com/treesome-nft-project-planting-half-a-million-trees-together-one-at-a-time/"> To the article!</a>
         <div className="row align-items-center my-5" >
           <div className="col-md-5">
             <h1 className="text-t header">A real difference, in the real world!</h1>

@@ -23,3 +23,15 @@
 .about .a-text {
     text-align: start;
 }
+
+.about .link {
+    text-decoration: underline;
+    font-size: 32px;
+}
+.about .link:active {
+    color: #8f917e;
+}
+
+.about .link:hover {
+    color: #b6b8a2;
+}
