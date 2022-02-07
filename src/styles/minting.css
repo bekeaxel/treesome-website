@@ -15,7 +15,7 @@
     background-repeat: no-repeat;
 }
 
-.title {
+.minting .title {
     font-family: bit;
     font-size: 68px;
     text-align: center;
@@ -23,42 +23,49 @@
     margin: auto;
 }
 
-.crop { 
-    overflow: visible; 
-    white-space: nowrap; 
-    text-overflow: ellipsis; 
-    width: 1500px; 
-}​
-
-/* 
-.card {
-    background-color: rgba(13, 31, 13, 0.3);
-    border-style: solid;
-    border-color: rgb(59, 59, 59);
-    border-width: 6px;
-    width: 500px;
-    height: 450px;
-    align-items: center;
-    box-shadow: 5px 5px 3px rgba(26, 26, 26, 0.7);
-    margin-top: 50px;
+.mint-card{
+    height: 500px;
+    width: 450px;
+    background-color: #302a21e8;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow:  rgba(58, 58, 58, 0.226);
 }
 
-.card-title {
+.mint-card-title {
     font-family: bit;
-    font-size: 38px;
+    font-size: 48px;
     font-weight: 500;
     line-height: 1.6;
+    margin-top: 20px;
 }
 
-.card-text {
+.mint-card-text {
     font-family: bit;
-    font-size: 20px;
+    font-size: 24px;
+    text-decoration: none;
 }
 
-a.card-text:hover {
+a.mint-card-text:hover {
     text-decoration: none;
     color:rgb(0, 0, 0);
-} */
+}
+
+@media (max-width: 768px) {
+    .mint-card {
+        height: 400px;
+        width: 320px;
+    }
+    .mint-card-title {
+        font-size: 42px;
+    }
+    .mint-card-text {
+        font-size: 20px;
+    }
+}
 
 .mint-container {
     display: block;
@@ -76,7 +83,7 @@ a.card-text:hover {
 
 .market-button {
     padding: 0.7em 1.4em;
-    margin: 0 0.3em 0.3em 0;
+    margin: auto auto 1em auto;
     border-radius: 0.15em;
     border-color: black;
     border-style: solid;
@@ -99,65 +106,77 @@ a.card-text:hover {
 .market-button:hover {
     background-color: rgb(72, 92, 39);
 }
+.connect-button {
+    padding: 0.7em 1.4em;
+    margin: auto auto 70px auto;
+    border-radius: 0.15em;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: bit;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #e1e4c9;
+    background-color: darkolivegreen;
+    box-shadow: inset 0 -0.6em 0 -0.35em rgba(0,0,0,0.17);
+    text-align: center;
+    position: relative;
+    width: 300px;
+}
+
+.connect-button:hover {
+    background-color: rgb(72, 92, 39);
+}
+
+@media (max-width: 768px) {
+    .connect-button {
+        font-size: 24px;
+        width: 250px;
+    }
+}
 
 @media all and (max-width: 30em) {
     .market-button{
         display: block;
-        margin: 0.4em auto;
+        
+        width: 250px;
+        font-size: 20px;
+        
     }
 }
 
 .counter {
-    margin: auto;
-    width: 140px;
-    height: 60px;
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;   
-    display: flex;
-    align-items: center;
-    background-color: rgba(107, 139, 109, 0.37);
+   margin: 1em 0 1em 0;
+   align-items: center;
 }
 
 .counter-btn {
-    background-color: rgb(170, 170, 170); 
-    font-size: 25px;
+    margin: auto;
+    height: 50px;
+    width: 50px;
+    background: darkolivegreen;
+    border: 3px solid darkolivegreen;
+    border-radius: 50%;
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
 }
+
+button.counter-btn:hover {
+    background: rgb(68, 85, 37);
+    transform: translate(0, 0.25em);
+}
+
+/* button.counter-button:active {
+    background: rgb(110, 138, 60);
+    transform: translate(0em, 0.75em);
+} */
 
 .counter-digit {
-   align-self: center;
-   margin: auto;
+    margin: 0;
+    font-size: 36px;
 }
 
-.mint-button {
-    margin: auto;
-    width: 10em;
-    height: 60px;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    background-color: rgba(130, 133, 130, 0.603);
-}
-
-.mint-button:hover {
-    background-color: rgba(112, 114, 112, 0.603);
-}
-.mint-button:active {
-    border-color: rgb(32, 32, 32);
-}
-
-.connect-button {
-    background-color: rgba(99, 70, 35, 0.705);
-    border-style: solid;
-    border-color: black;
-    height: 3em;
-    width: 15em;
-    margin: auto;
-}
-
-.connect-button:hover {
-    background-color: rgba(80, 56, 27, 0.705)
-}
 
 .spacer-x-small {
     height: 8px;
@@ -179,8 +198,46 @@ a.card-text:hover {
     width: 32px;   
 }
 
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: inherit;
+    font-family: inherit;
+}
 
-/* color: var(--primary-text);
-font-size: 22px;
-font-weight: 500;
-line-height: 1.6; */
+button.mint-button {
+    margin: 1em auto auto auto;
+    width: 300px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1.25em 2em;
+    background: darkolivegreen;
+    border: 3px solid darkolivegreen;
+    border-radius: 0.75em;
+    transform-style: preserve-3d;
+    transition: transform 150ms cubic-bezier(0, 0, 0.58, 1), background 150ms cubic-bezier(0, 0, 0.58, 1);
+}
+
+button.mint-button:hover {
+    background: rgb(68, 85, 37);
+    transform: translate(0, 0.25em);
+}
+
+button.mint-button:active {
+    background: rgb(110, 138, 60);
+    transform: translate(0, 0.4em);
+}
+
+@media (max-width: 768px) {
+    button.mint-button {
+        margin: auto;
+        width: 200px;
+        height: 80px;
+        padding: 0;
+    }
+}

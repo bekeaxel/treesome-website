@@ -2,12 +2,12 @@
     background-color: rgb(22, 22, 22);
 }
 
-.icon {
+.footer.icon {
     transform: scale(1.50);
     margin-bottom: 10px;
 }
 
-.sm-icons-footer {
+.footer .sm-icons-footer {
     display: flex;
     justify-content: center;
     list-style-type: none;

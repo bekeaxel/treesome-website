@@ -73,8 +73,8 @@ function Minting() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 10) {
-      newMintAmount = 10;
+    if (newMintAmount > 15) {
+      newMintAmount = 15;
     }
     setMintAmount(newMintAmount);
   };
@@ -109,71 +109,68 @@ function Minting() {
       <div className="minting" id="mint" style={{
         backgroundImage: "url(/bg.gif)"
       }}>
-      
       {CONFIG.SHOW_MINTCARD ? (
         <>
-        <div className="spacer-large"></div>
-        <div className="title text-t">We're planting half a million trees, together!</div>
-        
-        <div className="card text-center">
-          <div className="card-body">
-            <h2 className="card-title text-t"> MINT A TREE</h2>
-            <a className="card-text text-t" href={CONFIG.SCAN_LINK}>
-              Contract adress {truncate(CONFIG.CONTRACT_ADDRESS, 15)}</a>
+        <div className="mint-card">
+          <h2 className="mint-card-title text-t"> MINT A TREE</h2>
+          <a className="mint-card-text text-t contract-link" href={CONFIG.SCAN_LINK}>
+            Contract {truncate(CONFIG.CONTRACT_ADDRESS, 15)}</a>
+          
+          {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
+            <>              
+            <div>
+              <p className="mint-card-text text-t">The sale has ended. You can still find {CONFIG.NFT_NAME} on {CONFIG.MARKETPLACE}</p>
+              <a className="mint-card-text market-button text-t" href={CONFIG.MARKETPLACE_LINK}>View on Opensea</a>
+            </div>
+            </>
+          ) : (
+            <>
+            <div className="spacer-medium"></div>
+            <p className="mint-card-text text-t">{CONFIG.DISPLAY_COST} ETH / each</p>
             
-            {Number(data.totalSupply) >= CONFIG.MAX_SUPPLY ? (
-              <>              
-              <div>
-                <div className="spacer-large"></div>
-                <div className="spacer-large"></div>
-                <p className="card-text text-t">The sale has ended. You can still find {CONFIG.NFT_NAME} on {CONFIG.MARKETPLACE}</p>
-                <a className="card-text market-button text-t" href={CONFIG.MARKETPLACE_LINK}>View on Opensea</a>
-              </div>
+            {blockchain.smartContract === null ? (
+              <> 
+                <button className="connect-button mint-card-text text-t" onClick={(e) => {
+                  e.preventDefault();
+                  dispatch(connect());
+                  getData();
+                }}>
+                  CONNECT
+                </button>
+                {blockchain.errorMsg !== "" ? (
+                  <>
+                    <p className="mint-card-text" style={{color: "crimson"}}>
+                      {blockchain.errorMsg}
+                    </p>
+                  </>
+                ) : null}
               </>
             ) : (
-              <>
-              <div className="spacer-medium"></div>
-              <p className="card-text text-t">{CONFIG.DISPLAY_COST} ETH / each</p>
+              <> 
               
-              {blockchain.smartContract === null ? (
-                <> 
-                  <div className="spacer-large"></div>
-                  <div className="spacer-large"></div>
-                  <button className="connect-button card-text text-t" onClick={(e) => {
-                    e.preventDefault();
-                    dispatch(connect());
-                    getData();
-                  }}>
-                    CONNECT YOUR WALLET
-                  </button>
-                  {blockchain.errorMsg !== "" ? (
-                    <>
-                      <p className="card-text" style={{color: "crimson"}}>
-                        {blockchain.errorMsg}
-                      </p>
-                    </>
-                  ) : null}
-                </>
-              ) : (
-                <> 
-                  <div className="spacer-large"></div>
+                <div className="row counter">
+                  <div className="col-5" >
+                    <button className="counter-btn mint-card-text" style={{color: "#e1e4c9", float: "right", textAlign: "center"}} onClick={(e) => {
+                      e.preventDefault();
+                      decrementMintAmount();
+                    }}>
+                      -
+                    </button>
+                  </div>
+                  <div className="col-2">
+                    <p className="counter-digit mint-card-text text-t">{mintAmount}</p>
+                  </div>
+                  <div className="col-5" >
+                    <button className="counter-btn mint-card-text" style={{color: "#e1e4c9", float: "left", textAlign: "center"}} onClick={(e) => {
+                      e.preventDefault();
+                      incrementMintAmount();
+                    }}>
+                      +
+                    </button>
+                  </div>
+                </div>
                   <div className="row">
-                    <div className="counter ">
-                      <button className="counter-btn card-text" style={{marginRight: "auto", marginLeft: 5}} onClick={(e) => {
-                        e.preventDefault();
-                        decrementMintAmount();
-                      }}>
-                        -
-                      </button>
-                      <p className="counter-digit card-text">{mintAmount}</p>
-                      <button className="counter-btn card-text" style={{marginLeft: "auto", marginRight: 5}} onClick={(e) => {
-                        e.preventDefault();
-                        incrementMintAmount();
-                      }}>
-                        +
-                      </button>
-                    </div>
-                    <button className="mint-button card-text text-t" onClick={(e) => {
+                    <button className="mint-button mint-card-text text-t" onClick={(e) => {
                       e.preventDefault();
                       claimNFTs();
                       getData();
@@ -181,19 +178,17 @@ function Minting() {
                       Mint now
                     </button>
                   </div>
-                  <div className="spacer-medium"></div>
-                  <p className="card-text">Your address: {blockchain.account}</p>
-                  { feedback !== '' ? (
-                    <>
-                      <p className="card-text">{feedback}</p>
-                    </>
-                  ) : null
-                  }
-                </>
-              )}
+                <div className="spacer-medium"></div>
+                { feedback !== '' ? (
+                  <>
+                    <p className="mint-card-text">{feedback}</p>
+                  </>
+                ) : null
+                }
               </>
             )}
-          </div>
+            </>
+          )}
         </div>
         </>
         ) : (
