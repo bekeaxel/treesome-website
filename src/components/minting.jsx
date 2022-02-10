@@ -34,6 +34,32 @@ function Minting() {
     SHOW_BACKGROUND: false,
   });
 
+  const claimFreeNFT = () => {
+    if (blockchain.account !== "") {
+      let gasLimit = CONFIG.GAS_LIMIT;
+      let totalGasLimit = String(gasLimit * mintAmount);
+      console.log("Gas limit: ", totalGasLimit);
+      blockchain.smartContract.methods
+        .mint(mintAmount)
+        .send({
+          gasLimit: String(totalGasLimit),
+          to: CONFIG.CONTRACT_ADDRESS,
+          from: blockchain.account,
+          value: 0,
+        })
+        .once("error", (err) => {
+          console.log(err);
+        })
+        .then((receipt) => {
+          console.log(receipt);
+          setFeedback(
+            `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+          );
+          dispatch(fetchData(blockchain.account));
+        });
+    }
+  };
+
   const claimNFTs = () => {
     if (blockchain.account !== "") {
       let cost = CONFIG.WEI_COST;
@@ -125,7 +151,6 @@ function Minting() {
             </>
           ) : (
             <>
-            <div className="spacer-medium"></div>
             <p className="mint-card-text text-t">{CONFIG.DISPLAY_COST} ETH / each</p>
             
             {blockchain.smartContract === null ? (
@@ -177,8 +202,24 @@ function Minting() {
                     }}>
                       Mint now
                     </button>
+                    {blockchain.errorMsg !== "" ? (
+                      <>
+                        <p className="mint-card-text" style={{color: "crimson"}}>
+                          {blockchain.errorMsg}
+                        </p>
+                      </>
+                    ) : null}
                   </div>
-                <div className="spacer-medium"></div>
+                  <p className="text-t mint-card-text" style={{margin: "0"}}>Four leaf clover? Click below</p>
+                  <div className="row">
+                    <button className="free-mint mint-card-text text-t" onClick={(e) =>{
+                      e.preventDefault();
+                      claimFreeNFT();
+                      getData();
+                    }}>
+                      Free Mint
+                    </button>
+                  </div>
                 { feedback !== '' ? (
                   <>
                     <p className="mint-card-text">{feedback}</p>

@@ -56,7 +56,7 @@ a.mint-card-text:hover {
 
 @media (max-width: 768px) {
     .mint-card {
-        height: 400px;
+        height: 490px;
         width: 320px;
     }
     .mint-card-title {
@@ -147,7 +147,7 @@ a.mint-card-text:hover {
 }
 
 .counter {
-   margin: 1em 0 1em 0;
+   margin: 0.2em 0 0.2em 0;
    align-items: center;
 }
 
@@ -206,14 +206,14 @@ button {
     border: 0;
     vertical-align: middle;
     text-decoration: none;
-    font-size: inherit;
-    font-family: inherit;
+    
 }
 
 button.mint-button {
-    margin: 1em auto auto auto;
+    margin: 0.5em auto 1em auto;
     width: 300px;
     font-weight: 600;
+    color: #e1e4c9;
     text-transform: uppercase;
     padding: 1.25em 2em;
     background: darkolivegreen;
@@ -233,11 +233,40 @@ button.mint-button:active {
     transform: translate(0, 0.4em);
 }
 
+button.free-mint {
+    background: darkolivegreen;
+    width: 300px;
+    font-weight: 600;
+    height: 60px;
+    border-radius: 0.75em;
+    margin: 0 auto 0 auto;
+    border: 3px solid darkolivegreen;
+}
+
+button.free.mint:hover {
+    background: rgb(68, 85, 37);
+    transform: translate(0, 0.25em);
+}
+
+button.free-mint:active {
+    background: rgb(110, 138, 60);
+    transform: translate(0, 0.4em);
+}
+
 @media (max-width: 768px) {
     button.mint-button {
-        margin: auto;
+        margin: auto auto 5px auto;
         width: 200px;
-        height: 80px;
+        color: #e1e4c9;
+        height: 75px;
         padding: 0;
     }
+
+    button.free-mint {
+        margin: 0.5em auto 0 auto; 
+    }
 }
+
+
+
+

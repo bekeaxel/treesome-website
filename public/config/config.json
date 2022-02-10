@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x8348417031C6bedD5F2C2F702ebdC020B590948b",
-  "SCAN_LINK": "https://rinkeby.etherscan.io/token/0x8348417031c6bedd5f2c2f702ebdc020b590948b",
+  "CONTRACT_ADDRESS": "0x0c5a8fb8477aEAcb1643E208454795057bb8205B",
+  "SCAN_LINK": "https://etherscan.io/address/0x0c5a8fb8477aEAcb1643E208454795057bb8205B",
   "TWITTER_LINK": "https://twitter.com/TreesomeNFT",
   "NETWORK": {
     "NAME": "Ethereum",
@@ -10,11 +10,11 @@
   "NFT_NAME": "Treesome",
   "SYMBOL": "TREE",
   "MAX_SUPPLY": 10000,
-  "WEI_COST": 50000000000000000,
-  "DISPLAY_COST": 0.08,
+  "WEI_COST": 55000000000000000,
+  "DISPLAY_COST": 0.055,
   "GAS_LIMIT": 285000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/TreesomeNFT",
   "SHOW_BACKGROUND": true,
-  "SHOW_MINTCARD": false
+  "SHOW_MINTCARD": true
 }
