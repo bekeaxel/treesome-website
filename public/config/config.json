@@ -16,5 +16,5 @@
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/TreesomeNFT",
   "SHOW_BACKGROUND": true,
-  "SHOW_MINTCARD": false
+  "SHOW_MINTCARD": true
 }
